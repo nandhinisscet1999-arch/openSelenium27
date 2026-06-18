@@ -15,6 +15,7 @@ WebDriver driver = null;
 		
 	}
 	
+
 	@FindBy(xpath="//a[@class='shopping_cart_link']")
 	private WebElement productbtn;
 	
@@ -24,11 +25,8 @@ WebDriver driver = null;
 	@FindBy(name="products")
 	private WebElement prod;
 	
-
 	@FindBy(name="search")
 	private WebElement ele2;
 	
-	@FindBy(name="search")
-	private WebElement ele3;
-
+		
 }
