@@ -14,6 +14,8 @@ WebDriver driver = null;
 		PageFactory.initElements(driver,this);
 		
 	}
+	
+
 	@FindBy(xpath="//a[@class='shopping_cart_link']")
 	private WebElement productbtn;
 	
@@ -27,10 +29,6 @@ WebDriver driver = null;
 	private WebElement prod;
 	
 	@FindBy(name="search")
-	private WebElement ele2;
+	private WebElement ele3;
+}
 	
-	
-		
-	}
-	
-
